@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+venv/
+build/
+dist/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.~
+
+# Data files (ignore all Excel files except sample_data.xlsx if it's meant to be version controlled)
+# Since sample_data.xlsx is part of the project, we'll explicitly ignore other .xlsx files
+*.xlsx
+!sample_data.xlsx
+!RealBlakeData.xlsx
+
+# Generated files
+generate_sample_data.py
+USAGE_GUIDE.txt
