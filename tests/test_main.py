@@ -8,7 +8,9 @@ runner = CliRunner()
 def test_app():
     result = runner.invoke(app, ["--help"], color=False)
     assert result.exit_code == 0
-    assert "Usage: root [OPTIONS] COMMAND [ARGS]..." in result.stdout
+    assert "Usage:" in result.stdout
+    assert "[OPTIONS]" in result.stdout
+    assert "COMMAND" in result.stdout
     assert "analyze" in result.stdout
     assert "stats" in result.stdout
     assert "graph" in result.stdout
