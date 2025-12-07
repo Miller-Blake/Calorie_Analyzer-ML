@@ -22,6 +22,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+        pip install -e . # Install the calorie_analyzer package in editable mode
         pip install pytest typer pandas openpyxl scikit-learn matplotlib # Ensure all are installed for testing
 
     - name: Run tests
