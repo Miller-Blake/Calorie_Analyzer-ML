@@ -2,7 +2,7 @@
 
 A Python CLI tool that analyzes an Excel sheet containing calories, morning weight, and night weight, then outputs meaningful statistics, trends, graphs, and an estimated maintenance calorie range using machine learning regression.
 
-![Tests Workflow Status](https://github.com/Miller-Blake/Calorie_Analyzer-ML/actions/workflow/status/tests.yml?branch=main)
+![Tests Workflow Status](https://github.com/Miller-Blake/Calorie_Analyzer-ML/actions/workflow/status/tests.yml?branch=master)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)
 
