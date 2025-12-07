@@ -6,7 +6,7 @@ from calorie_analyzer.main import app
 runner = CliRunner()
 
 def test_app():
-    result = runner.invoke(app, ["--help"])
+    result = runner.invoke(app, ["--help"], color=False)
     assert result.exit_code == 0
     assert "Usage: root [OPTIONS] COMMAND [ARGS]..." in result.stdout
     assert "analyze" in result.stdout
